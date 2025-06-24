@@ -1,0 +1,104 @@
+body{
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #d6a7a9;
+}
+.js-g, .js-add{
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  column-gap: 10px;
+  row-gap: 10px;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 10px;
+  width: 500px;
+}
+.task-box {
+  display: grid;
+  grid-template-columns: 200px 150px 100px;
+  justify-content:space-between;
+  align-items: center;
+  background-color: #F7DAD9;
+  border-radius: 30px;
+  padding: 10px 20px;
+  margin-bottom: 10px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.js-i:hover, .js-Date:hover, .js-a:hover, .js-delete:hover, .task-box:hover{
+  transform: translateY(-5px);  /* Float effect */
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Deeper shadow on hover */
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.js-add{
+  margin-bottom: 10px;
+  align-items: stretch ;
+  border:none;
+  cursor: pointer;
+}
+.js-a{
+  color:#B47379;
+  background-color: #F7DAD9;
+  border:none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 15px;
+  padding: 10px 18px;
+}
+.js-i, .js-Date{
+  border:none;
+  border-radius: 30px;
+  color:#B47379;
+  background-color: #F7DAD9;
+  font-size: 15px;
+  padding: 10px 14px;
+}
+.js-n{
+  color: #934049;
+}
+.js-delete{
+  color:#F7DAD9;
+  background-color: #710C18;
+  border:none;
+  border-radius: 100px;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 14px;
+  cursor: pointer;
+}
+.main-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+.play {
+  background-color: #F7DAD9;
+  padding: 10px 30px;
+  border-radius: 30px;
+  font-size: 24px;
+  color: #710C18;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+.js-n, .js-d {
+  background-color: transparent;
+  font-size: 18px;
+  color: #710C18;
+  padding: 0;
+  margin: 0 10px;
+  width: 140px;
+  text-align: left;
+}
+.js-p{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.play:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
