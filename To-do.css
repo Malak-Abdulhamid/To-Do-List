@@ -25,8 +25,8 @@ body{
 }
 
 .js-i:hover, .js-Date:hover, .js-a:hover, .js-delete:hover, .task-box:hover{
-  transform: translateY(-5px);  /* Float effect */
-  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);  /* Deeper shadow on hover */
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 .js-add{
